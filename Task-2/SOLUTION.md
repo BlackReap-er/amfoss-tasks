@@ -1,6 +1,6 @@
-mkdir Coordinates-Location
--mkdir North
--cd North
+mkdir Coordinates-Location <br/>
+mkdir North <br/>
+cd North
 gedit NDegree.txt
 rgedit NMinutes.txt
 gedit NSeconds.txt
