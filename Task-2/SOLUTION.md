@@ -1,30 +1,30 @@
 mkdir Coordinates-Location <br/>
 mkdir North <br/>
-cd North
-gedit NDegree.txt
-rgedit NMinutes.txt
-gedit NSeconds.txt
-gedit NorthCoordinate.txt
-cp NorthCoordinate.txt /home/reaper/Coordinates-Location
-cd
-cd Coordinates-Location
-mv NorthCoordinate.txt North.txt
-gedit NorthCoordinate.txt
-mkdir East
-cd East 
-gedit EDegree.txt
-gedit EMinutes.txt 
-gedit ESeconds.txt
-gedit EastCoordinate.txt
-cp EastCoordinate.txt /home/reaper/Coordinates-Location
-cd
-cd Coordinates-Location
-mv EastCoordinate.txt East.txt
-mv /home/reaper/North /home/reaper/Coordinates-Location
-gedit Location-Coordinate.txt
+cd North <br/>
+gedit NDegree.txt <br/>
+rgedit NMinutes.txt <br/>
+gedit NSeconds.txt <br/>
+gedit NorthCoordinate.txt <br/>
+cp NorthCoordinate.txt /home/reaper/Coordinates-Location <br/>
+cd <br/>
+cd Coordinates-Location <br/>
+mv NorthCoordinate.txt North.txt <br/>
+gedit NorthCoordinate.txt <br/>
+mkdir East <br/>
+cd East <br/>
+gedit EDegree.txt <br/>
+gedit EMinutes.txt <br/>
+gedit ESeconds.txt <br/>
+gedit EastCoordinate.txt <br/>
+cp EastCoordinate.txt /home/reaper/Coordinates-Location <br/>
+cd <br/>
+cd Coordinates-Location <br/>
+mv EastCoordinate.txt East.txt <br/>
+mv /home/reaper/North /home/reaper/Coordinates-Location <br/>
+gedit Location-Coordinate.txt <br/>
 
-git clone "https://github.com/BlackReap-er/amfoss-tasks"
-cd amfoss-tasks
-git add .
-git commit -m "Added"
-git push
+git clone "https://github.com/BlackReap-er/amfoss-tasks" <br/>
+cd amfoss-tasks <br/>
+git add . <br/>
+git commit -m "Added" <br/>
+git push <br/>
